@@ -18,13 +18,13 @@ class InfiniteScrollRecyclerViewActivity : AppCompatActivity() {
         binding = ActivityInfiniteScrollRecyclerViewBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        counterList = arrayListOf(
-            CounterModel(1),
-            CounterModel(2),
-            CounterModel(3),
-            CounterModel(4),
-            CounterModel(5)
-        )
+//        counterList = arrayListOf(
+//            CounterModel(1),
+//            CounterModel(2),
+//            CounterModel(3),
+//            CounterModel(4),
+//            CounterModel(5)
+//        )
 
     }
 }

@@ -6,6 +6,5 @@ data class UsersModel(
     var email: String,
     var type: Int,
     var address: String = "",
-
     )
 

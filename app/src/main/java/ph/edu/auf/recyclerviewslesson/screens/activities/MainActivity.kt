@@ -1,5 +1,6 @@
 package ph.edu.auf.recyclerviewslesson.screens.activities
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.view.View.OnClickListener
@@ -31,7 +32,8 @@ class MainActivity : AppCompatActivity(), OnClickListener {
     override fun onClick(p0: View?) {
         when(p0!!.id){
             binding.btnSimpleRecyclerView.id ->{
-
+                val intent = Intent(this,SimpleRecyclerViewActivity::class.java)
+                startActivity(intent)
             }
             binding.btnSimpleRecyclerViewFragments.id -> {
 
